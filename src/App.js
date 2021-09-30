@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import "./App.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Nav from "./Nav/Nav";
 import Main from "./Main/Main";
 
@@ -14,7 +14,9 @@ function App() {
       `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_KEY}&t=${searchText}`
     );
     const data = await response.json();
+    
     setMovieData(data);
+   
     setShow(true);
   };
 
