@@ -28,9 +28,10 @@ const Main = (props) => {
               <h1>Ratings</h1>
 
               {props.movieData.Ratings.map((movie) => (
-                <div>
+                <div className="ratingsContainer">
                   <p>
-                    {movie.Source} - {movie.Value}
+                    {movie.Source} -{" "}
+                    <span className="rating"> {movie.Value} </span>
                   </p>
                 </div>
               ))}

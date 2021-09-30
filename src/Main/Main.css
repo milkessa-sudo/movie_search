@@ -38,3 +38,14 @@
 .infoTextItem {
   margin-bottom: 10px;
 }
+
+.rating {
+  background-color: #a5d6a7;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.ratingsContainer {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
