@@ -6,7 +6,7 @@
 }
 
 .modalContainer {
-  height: 400px;
+  min-height: 400px;
   width: 800px;
   padding: 30px;
   border-radius: 10px;
@@ -19,5 +19,5 @@
 
 .imgPoster {
   width: 150px;
-  height: 200px;
+  height: 300px;
 }
