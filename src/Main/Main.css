@@ -1,0 +1,23 @@
+.mainContainer {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  height: 400px;
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: #ab47bc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imgPoster {
+  width: 150px;
+  height: 200px;
+}

@@ -1,0 +1,29 @@
+.navContainer {
+  height: 10vh;
+  background-color: #ab47bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.searchInput {
+  width: 80%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.searchBtn {
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 0 10px;
+  cursor: pointer;
+}
