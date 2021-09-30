@@ -15,7 +15,9 @@ const Main = (props) => {
           </div>
 
           <div>
-            <button onClick={() => props.setShow(false)}>Close</button>
+            <button className="searchBtn" onClick={() => props.setShow(false)}>
+              Close
+            </button>
           </div>
         </div>
       )}
