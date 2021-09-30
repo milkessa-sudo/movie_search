@@ -21,3 +21,20 @@
   width: 150px;
   height: 300px;
 }
+
+.btnContainer {
+  margin-top: 20px;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoText {
+  width: 60%;
+}
+
+.infoTextItem {
+  margin-bottom: 10px;
+}
