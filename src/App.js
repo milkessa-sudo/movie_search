@@ -1,6 +1,6 @@
 //import logo from "./logo.svg";
 import "./App.css";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Nav from "./Nav/Nav";
 import Main from "./Main/Main";
 
